@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+}
+
+.columnLt {
+  flex: 40%;
+}
+
+.columnRt {
+  flex: 40%;
+}
+
+.map {
+	width:50%;
+}
