@@ -21,14 +21,15 @@ trackUserLocation: true
 // -------------------markers
 var marker1 = new tt.Marker()
 .setLngLat([-122.4149, 37.7736])
-.addTo(map);
+.addTo(map)
+
 
 
  new tt.Marker()
 .setLngLat([-122.4021, 37.7201])
 .addTo(map);
 
-// ------- popups
+// ------- popups set up 
 
 var markerHeight = 50, markerRadius = 10, linearOffset = 25;
 var popupOffsets = {
